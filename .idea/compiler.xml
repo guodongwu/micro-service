@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client-config" />
+        <module name="eureka-client-api" />
+        <module name="eureka-client-service" />
+        <module name="eureka-server" />
+        <module name="eureka-server-slave" />
+        <module name="fegin-consumer" />
+        <module name="ribbon-consumer" />
+        <module name="ribbon-consumer-hystrix-dashboard" />
+        <module name="server-config" />
+        <module name="zuul-filter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client-config" target="1.8" />
+      <module name="eureka-client-api" target="1.8" />
+      <module name="eureka-client-service" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-slave" target="1.8" />
+      <module name="fegin-consumer" target="1.8" />
+      <module name="micro-service" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
+      <module name="ribbon-consumer-hystrix-dashboard" target="1.8" />
+      <module name="server-config" target="1.8" />
+      <module name="zuul-filter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

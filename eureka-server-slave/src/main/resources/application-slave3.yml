@@ -1,0 +1,19 @@
+server:
+  port: 9012
+
+eureka:
+  instance:
+    hostname: slave3
+  client:
+   # register-with-eureka: false
+   # fetch-registry: false
+    service-url:
+      defaultZone: http://slave1:9010/eureka/,http://slave2:9011/eureka/
+
+
+
+spring:
+  application:
+    name: eureka-server-slave
+  profiles:
+    active: slave3

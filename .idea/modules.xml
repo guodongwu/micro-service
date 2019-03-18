@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client-config/client-config.iml" filepath="$PROJECT_DIR$/client-config/client-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-api/eureka-client-api.iml" filepath="$PROJECT_DIR$/eureka-client-api/eureka-client-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-service/eureka-client-service.iml" filepath="$PROJECT_DIR$/eureka-client-service/eureka-client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-slave/eureka-server-slave.iml" filepath="$PROJECT_DIR$/eureka-server-slave/eureka-server-slave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fegin-consumer/fegin-consumer.iml" filepath="$PROJECT_DIR$/fegin-consumer/fegin-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service.iml" filepath="$PROJECT_DIR$/micro-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" filepath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer-hystrix-dashboard/ribbon-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/ribbon-consumer-hystrix-dashboard/ribbon-consumer-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-config/server-config.iml" filepath="$PROJECT_DIR$/server-config/server-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-filter/zuul-filter.iml" filepath="$PROJECT_DIR$/zuul-filter/zuul-filter.iml" />
+    </modules>
+  </component>
+</project>

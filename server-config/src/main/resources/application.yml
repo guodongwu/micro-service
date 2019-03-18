@@ -1,0 +1,20 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+  instance:
+    instance-id: server-config-8888
+    prefer-ip-address: true
+server:
+  port: 8888
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config-repo
+  application:
+    name: server-config
